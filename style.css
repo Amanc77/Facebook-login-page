@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(244, 229, 202);
+    overflow-x:hidden ;
+    position: relative;
+}
+
+.left{
+    
+    border: 2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right{
+    border: ;
+    height: 500px;
+    width: 400px;
+    
+
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+  
+}
+.left img{
+    margin-left: -160px;
+    height: 120px;
+    
+}
+.left .text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.containt{
+    border: 2px ;
+    height: 350px;
+    border-radius: 10px;
+    width: 400px;
+    display: grid;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow:10px 10px 10px 10px rgba(71, 61, 61, 0.5);
+
+}
+.email , .password{
+    height: 50px;
+    font-size: 1.01rem;
+    padding: 20px;
+    
+}
+.login{
+    height: 50px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(15, 15, 225, 0.822);
+}
+.containt span a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.newaccount{
+    margin-top: 20px;
+    height: 50px;
+    font-size: 1.3rem;
+    width: 70%;
+    transform: translateX(50px);
+    color: #fff;
+    background-color: rgba(0, 128, 0, 0.875);
+    text-decoration: none;
+    
+}
+hr{
+    height: 1px;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.left{
+    margin-bottom: 200px;
+    margin-left: 200px;
+}
